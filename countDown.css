@@ -1,0 +1,78 @@
+:root {
+  --primary: #CA8EB2;
+  --secondary: #ca8eb2a9;
+  --text-color: white;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.section {
+  min-height: 100vh;
+  background: url(recreate-macos-big-sur-1024x576.jpeg) no-repeat center;
+  background-size: cover;
+  text-align: center;
+}
+
+h1{
+  font-size: 5rem;
+  color: var(--text-color);
+  padding: 5rem 0;
+}
+
+h3{
+  font-size: 2rem;
+  color: var(--text-color);
+}
+
+#inputDate {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+}
+
+#dateBtn {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  margin-left: 1rem;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--secondary);
+  cursor: pointer;
+}
+
+#dateBtn:hover {
+  background-color: var(--primary);
+  transition: ease-out 0.5s;
+}
+
+.container {
+  padding: 3rem 0;
+}
+
+#flex {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#flex div {
+  padding: 0 3rem;
+}
+
+#flex div > h2 {
+  font-size: 4rem;
+  color: var(--text-color);
+}
+
+#flex div > p {
+  font-size: 1.5rem;
+  color: var(--primary);
+}

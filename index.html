@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Exercise</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="countDown.css">
+</head>
+<body>
+  
+  <!-- Count Down Timer starts -->
+
+  <main class="section">
+    <h1>Holiday count down</h1>
+
+    <input type="date" name="newDate" id="inputDate" required>
+    <input type="submit" value="Start Counting" id="dateBtn">
+
+    <div class="container" id="flex">
+      <div>
+        <h2 id="day"></h2>
+        <p>day</p>
+      </div>
+      <div>
+        <h2 id="hour"></h2>
+        <p>hour</p>
+      </div>
+      <div>
+        <h2 id="minute"></h2>
+        <p>minute</p>
+      </div>
+      <div>
+        <h2 id="second"></h2>
+        <p>second</p>
+      </div>
+    </div>
+
+    <h3 class="displayText"></h3>
+  </main>
+
+  <!-- Count Down Timer ends -->
+
+  <!-- JS -->
+  <script src="countDown.js"></script>
+</body>
+</html>
